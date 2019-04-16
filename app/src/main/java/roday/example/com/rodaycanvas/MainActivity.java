@@ -21,17 +21,17 @@ public class MainActivity extends AppCompatActivity {
         paintView.init(metrics);
     }
 
-    /*@Override
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.main, menu);
         return super.onCreateOptionsMenu(menu);
-    }*/
+    }
 
-    /*@Override
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()) {
-            case R.id.normal:
+            /*case R.id.normal:
                 paintView.normal();
                 return true;
             case R.id.emboss:
@@ -39,12 +39,12 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.blur:
                 paintView.blur();
-                return true;
+                return true;*/
             case R.id.clear:
                 paintView.clear();
                 return true;
         }
 
         return super.onOptionsItemSelected(item);
-    }*/
+    }
 }
