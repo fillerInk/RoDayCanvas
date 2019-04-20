@@ -6,9 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <roday.example.com.rodaycanvas.PaintView
-        android:id="@+id/paintView"
+    <com.rm.freedrawview.FreeDrawView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:id="@+id/drawId"
+        app:paintColor="Color.BLACK"
+        app:paintWidth="4dp"
+        android:background="Color.WHITE"/>
 
 </android.support.constraint.ConstraintLayout>

@@ -14,5 +14,9 @@
         android:title="clear"
         android:id="@+id/clear"/>
 
+    <item
+        android:title="save"
+        android:id="@+id/save"/>
+
 
 </menu>
